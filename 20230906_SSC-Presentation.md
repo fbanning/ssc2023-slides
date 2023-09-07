@@ -162,7 +162,7 @@ The signs of the relevant differences support both hypotheses.
 
 ## Questions?
 
-Please **ask** them here or **write us** an email
+Please **ask** them here or **write us** an email.
 
 Frederik Banning | *frederik.banning@rub.de*  
 Marcin Czupryna | *czuprynm@uek.krakow.pl*  
