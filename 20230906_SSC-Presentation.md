@@ -10,15 +10,6 @@ Glasgow, 07. September 2023
 
 ---
 
-<!--
-# Imagine ...
-
-... a workplace without hierarchies at work.
-
-Where social connections depend on individual values...
-
-... and people can freely switch their work groups due to personal dissatisfaction.
--->
 ## Executive Summary
 
 
@@ -28,6 +19,12 @@ People's values determine
 they want to work.<span class="fragment">\*</span>
 
 <span class="fragment">\*Terms and conditions apply.<!-- .element: style="font-size:0.6em" --></span>
+
+
+<!-- basic description -->
+Our model does this
+
+and wants to achieve that.
 
 
 <!-- Schwartz values -->
