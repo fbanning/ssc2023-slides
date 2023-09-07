@@ -186,6 +186,13 @@ Bogumił Kamiński | *bkamins@sgh.waw.pl*
 ## Additional slides
 
 
+## Values
+
+- Values are desirable goals that guide and motivate people's perceptions, judgments, attitudes, and actions
+- Values determine what is important in life
+- Everyone's value system is unique and hierarchical
+
+
 *Hub score*: An agent is a good hub when they want to work with a lot of other agents with high authority scores.
 
 *Authority score*: An agent is a good authority when a lot of other agents with high hub scores want to work with them.
