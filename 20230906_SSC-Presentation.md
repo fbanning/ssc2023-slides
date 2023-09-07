@@ -35,21 +35,16 @@ Decision to *change network* based on satisfaction
 *Exponential random graph model* for network connections
 
 
-<!-- Schwartz values -->
-![Schwartz value circle](img/Schwartz-values.png) <!-- .element: style="height:60vh" -->  
-*Source: Adapted from Schwartz et al. (2012).* <!-- .element: style="font-size:16px" -->
-
-
-<!-- data -->
-1. European Social Survey, Round 9 (2018-2020)
-2. Experiment with Polish students (2020-2021)
-
-
 <!-- hypotheses -->
 1. Value-based decision-making leads to greater stability of social networks at the workplace.
 2. Agents with person-centred values change their networks more often than those with group-centred values.
 
 We found weak support for our hypotheses.
+
+
+<!-- Schwartz values -->
+![Schwartz value circle](img/Schwartz-values.png) <!-- .element: style="height:60vh" -->  
+*Source: Adapted from Schwartz et al. (2012).* <!-- .element: style="font-size:16px" -->
 
 ---
 
