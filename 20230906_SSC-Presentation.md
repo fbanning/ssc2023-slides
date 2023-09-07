@@ -21,10 +21,18 @@ they want to work.<span class="fragment">\*</span>
 <span class="fragment">\*Terms and conditions apply.<!-- .element: style="font-size:0.6em" --></span>
 
 
-<!-- basic description -->
-Our model does this
+<!-- model -->
+ABM about *work-related social networks*
 
-and wants to achieve that.
+*Synthetic population* with *individual values*
+
+Agents are nodes of a *directed graph*
+
+Workgroup *satisfaction* depends on *network metrics*
+
+Decision to *change network* based on satisfaction
+
+*Exponential random graph model* for network connections
 
 
 <!-- Schwartz values -->
@@ -40,18 +48,6 @@ and wants to achieve that.
 <!-- hypotheses -->
 1. Value-based decision-making leads to greater stability of social networks at the workplace.
 2. Agents with person-centred values change their networks more often than those with group-centred values.
-
-
-<!-- model -->
-*Synthetic population* with *individual values*
-
-Agents are nodes of a *directed graph*
-
-Workgroup *satisfaction* depends on *network metrics*
-
-Decision to *change network* based on satisfaction
-
-*Exponential random graph model* for network connections
 
 
 <!-- results -->
