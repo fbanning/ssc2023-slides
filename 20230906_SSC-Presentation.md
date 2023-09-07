@@ -36,10 +36,10 @@ Decision to *change network* based on satisfaction
 
 
 <!-- hypotheses -->
-1. Value-based decision-making leads to greater stability of social networks at the workplace.
-2. Agents with person-centred values change their networks more often than those with group-centred values.
+1. Value-based decision-making leads to *greater stability* of social networks at the workplace.
+2. Agents with *person-centred* values *change* their networks *more often* than those with group-centred values.
 
-We found weak support for our hypotheses.
+We found **weak support** for our hypotheses.
 
 
 <!-- Schwartz values -->
