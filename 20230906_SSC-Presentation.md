@@ -21,15 +21,20 @@ they want to work.<span class="fragment">\*</span>
 <span class="fragment">\*Terms and conditions apply.<!-- .element: style="font-size:0.6em" --></span>
 
 
+<!-- Schwartz values -->
+![Schwartz value circle](img/Schwartz-values.png) <!-- .element: style="height:60vh" -->  
+*Source: Adapted from Schwartz et al. (2012).* <!-- .element: style="font-size:16px" -->
+
+
 <!-- model -->
 ABM about *work-related social networks*
 
 *Synthetic population* with *individual values*
 
-Agents are nodes of a *directed graph*
+Agents are nodes of a *directed graph*  
+Edges depict *willingness to cooperate*
 
-Workgroup *satisfaction* depends on *network metrics*
-
+*Network measures* determine *satisfaction* with workgroup  
 Decision to *change network* based on satisfaction
 
 *Exponential random graph model* for network connections
@@ -40,11 +45,6 @@ Decision to *change network* based on satisfaction
 2. Agents with *person-centred* values *change* their networks *more often* than those with group-centred values.
 
 We found **weak support** for our hypotheses.
-
-
-<!-- Schwartz values -->
-![Schwartz value circle](img/Schwartz-values.png) <!-- .element: style="height:60vh" -->  
-*Source: Adapted from Schwartz et al. (2012).* <!-- .element: style="font-size:16px" -->
 
 ---
 
@@ -58,17 +58,17 @@ We found **weak support** for our hypotheses.
 
 $\Downarrow$
 
-Synthetic population of 2999 agents with representative value distribution.
+Synthetic population of 2999 agents  
+with representative value distribution.
 
 
 ### Experiment with Polish students (October 2020 - June 2021)
 
 - 258 students of economics, economic psychology, and psychology from three Polish universities
 - random assignment into 35 groups of up to 10 members
-
-- Questionnaire before and after semester
-- asked to declare willingness to cooperate with other students from same group
-- Schwartz values measured via 21-item Portrait Values Questionnaire
+- questionnaire before and after semester
+	- willingness to cooperate with other students from same group?
+	- Schwartz values measured via 21-item Portrait Values Questionnaire
 
 ---
 
@@ -84,13 +84,6 @@ Synthetic population of 2999 agents with representative value distribution.
 | Value | $s_{h}^{1,2}$ | $s_{a}^{1,2}$ |
 | :---  | ---:          | ---:          |
 | SD<br>ST<br>HE<br>AC<br>PO | -0.11 (0.09)<br>0.05 (0.48)<br>0.14 (0.03)<br>-0.17 (0.01)<br>-0.04 (0.54) |  0.06 (0.38)<br>-0.08 (0.20)<br>-0.15 (0.02)<br>0.16 (0.01)<br>0.07 (0.26)  |
-<!--| Value | $s_{h}^{1,2}$ | $s_{a}^{1,2}$ |
-| :---  | ---:          | ---:          |
-| SD    | -0.11 (0.09)  |  0.06 (0.38)  |
-| ST    |  0.05 (0.48)  | -0.08 (0.20)  |
-| HE    |  0.14 (0.03)  | -0.15 (0.02)  |
-| AC    | -0.17 (0.01)  |  0.16 (0.01)  |
-| PO    | -0.04 (0.54)  |  0.07 (0.26)  |-->
 
 
 ### In-degree centrality
@@ -100,7 +93,7 @@ Synthetic population of 2999 agents with representative value distribution.
 | SE<br>CO<br>TR<br>BE<br>UN | -0.11 (0.51)<br>-0.15 (0.37)<br>0.14 (0.41)<br>0.02 (0.92)<br>-0.15 (0.36) |
 
 
-### Decision rules for network change
+### Satisfaction with current workgroup
 
 | Value  | Satisfied | Dissatisfied |
 | :---   | :---:     | :---:        |
@@ -109,6 +102,13 @@ Synthetic population of 2999 agents with representative value distribution.
 | ST     | $s_a < \delta_a^d (2)$ <br>and <br>$s_h > \delta_h^u (2)$ | $s_a > \delta_a^u (3)$ <br>or <br>$s_h < \delta_h^d (3)$ |
 | UN     | $s_c < \delta_c^d (4)$ | $s_c < \delta_c^u (4)$ |
 | TR, CO | $s_c > \delta_c^u (5)$ | $s_c < \delta_c^d (5)$ |
+
+
+### Decision rule for network change
+
+$$ p_i = p_b + \Delta_p S_i $$
+
+with $p_b = 0.05$ and $\Delta_p = 0.025$.
 
 
 ### ERGM
@@ -138,7 +138,7 @@ Synthetic population of 2999 agents with representative value distribution.
 
 <figure>
 	<img src="img/grouped_changers.svg">
-	<figcaption>(b) Mean share of network changers among person- (blue) and group-centred (yellow) agents.</figcaption> <!-- .element: style="font-size:20px" -->
+	<figcaption>(b) Mean share of network changers among person- and group-centred agents.</figcaption> <!-- .element: style="font-size:20px" -->
 </figure>
 
 
@@ -152,11 +152,11 @@ The signs of the relevant differences support both hypotheses.
 
 ## Further steps
 
-- Repeat the experiment for more robust data,
-- use other synthetic populations,
-- conduct systematic analysis with different parameter sets,
-- formulate alternative decision rules for network building and satisfaction levels (e.g. satisfaction based on relative position in given social network),
-- implement dynamics in networks without changers,
+- **Repeat the experiment** for more robust data,
+- use **other synthetic populations**,
+- conduct systematic analysis with **different parameter sets**,
+- formulate **alternative decision rules** for network building and satisfaction levels (e.g. satisfaction based on relative position in given social network),
+- implement **dynamics in networks without changers**,
 - ...
 
 
